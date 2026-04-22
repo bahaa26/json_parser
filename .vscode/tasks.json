@@ -1,0 +1,27 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "type": "cppbuild",
+      "label": "Build C++ JSON Parser (WinLibs GCC)",
+      "command": "C:\\tools\\winlibs-x86_64-posix-seh-gcc-15.2.0-mingw-w64ucrt-13.0.0-r3\\mingw64\\bin\\g++.exe",
+      "args": [
+        "-fdiagnostics-color=always",
+        "-std=c++17",
+        "-g",
+        "${workspaceFolder}/src/*.cpp",
+        "-o",
+        "${workspaceFolder}/json_parser.exe"
+      ],
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "problemMatcher": ["$gcc"],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "detail": "Compiles all .cpp files in the src directory using GCC 15.2.0"
+    }
+  ]
+}
