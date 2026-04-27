@@ -20,8 +20,7 @@ cpp-json-parser/
 │   ├── lexer.cpp        # Tokenization logic
 │   ├── lexer.h
 │   ├── parser.cpp       # Tree building logic
-│   ├── parser.h
-│   ├── json_value.cpp   # Data structure definitions
+│   ├── parser.h         # Data structure definitions
 │   └── json_value.h
 ├── data/
 │   └── test.json        # Sample JSON file for testing
